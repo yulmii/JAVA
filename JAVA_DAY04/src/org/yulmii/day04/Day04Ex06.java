@@ -8,7 +8,7 @@ public class Day04Ex06 {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("월을 입력하세요 >> ");
 		int month = scan.nextInt();
-		while (month<1 || month>12) {
+		while (month<1 || month>12) {//1월부터 12월이 아닐때 반복해서 월 받기
 			System.out.println("달은 1월부터 12월까지 밖에 없습니다");
 			System.out.print("월을 입력하세요 >>");
 			month = scan.nextInt();		
